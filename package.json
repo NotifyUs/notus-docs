@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "rm -rf build && make html",
+    "dev": "yarn build && open build/html/index.html"
+  }
+}
