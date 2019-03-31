@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'notus-api-docs'
-copyright = '2019, Chuck Bergeron, Brendan Asselstine, Jacob Caban-Tomski'
-author = 'Chuck Bergeron, Brendan Asselstine, Jacob Caban-Tomski'
+copyright = '2019 - Notus Network'
+author = 'Notus Network'
 
 # The short X.Y version
 version = ''
@@ -66,7 +66,9 @@ language = None
 exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = None
+# pygments_style = None
+pygments_style = 'sphinx'
+
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -129,7 +131,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'notus-api-docs.tex', 'notus-api-docs Documentation',
-     'Chuck Bergeron, Brendan Asselstine, Jacob Caban-Tomski', 'manual'),
+     'Notus Network', 'manual'),
 ]
 
 
