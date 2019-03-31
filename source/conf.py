@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'notus-api-docs'
+project = 'Notus Documentation'
 copyright = '2019 - Notus Network'
 author = 'Notus Network'
 
