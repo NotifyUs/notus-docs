@@ -24,9 +24,9 @@ copyright = '2019 - Notus Network'
 author = 'Notus Network'
 
 # The short X.Y version
-version = ''
+version = 'v0.0.1'
 # The full version, including alpha/beta/rc tags
-release = ''
+release = 'v0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -173,3 +173,8 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
+
+html_logo='./_static/notus--wordmark--black-transparent.png'
+
+# html_title = ''
+# html_short_title = ''

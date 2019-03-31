@@ -70,15 +70,23 @@ body {
 .wy-plain-list-disc, .rst-content .section ul, .rst-content .toctree-wrapper ul, article ul,
 p {
   line-height: 30px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
   font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
-    font-family: 'Lato';
+    /* font-family: 'Lato'; */
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 hr {
     border-color: #f0f0f0;
@@ -231,7 +239,18 @@ a:hover {
     font-size: 100%;
 }
 
+.wy-side-nav-search > a img.logo,
+.wy-side-nav-search .wy-dropdown > a img.logo {
+    max-width: 50%;
+}
 
+.icon-home:before {
+    display: none;
+}
+
+.wy-side-nav-search > div.version {
+    color: #a0b4b4;
+}
 
 
 
@@ -334,7 +353,7 @@ a:hover {
 }
 
 .highlight .nt {
-    color: #5b73a8;
+    color: #7b93c8;
 }
 
 .highlight code, .highlight pre {

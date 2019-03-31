@@ -1,2 +1,7 @@
 {% extends "!layout.html" %}
 {% set css_files = css_files + [ "_static/css/notus.css" ] %}
+
+
+{% block footer %} {{ super() }}
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+{% endblock %}
