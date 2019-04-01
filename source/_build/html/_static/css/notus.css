@@ -40,11 +40,6 @@ body {
   letter-spacing: 0.04rem;
 }
 
-footer {
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-}
-
 .wy-body-for-nav {
     background: white;
 }
@@ -272,8 +267,7 @@ a:hover {
  }
  .wy-nav-top {
   background: white;
-  border-right: 2px rgba(100,100,100,0.1);
-  box-shadow: 0px 2px 3px rgba(100,100,100,0.1);
+  box-shadow: 0px 2px 3px  rgba(100,100,100,0.1);
   display: block;
   padding: 10px 24px 8px 24px;
   position: fixed;
@@ -288,7 +282,6 @@ a:hover {
  }
  .wy-nav-side {
   left:-460px;
-  padding-bottom: 0;
   transition: 100ms all ease-in-out;
  }
  .wy-nav-side.shift {
@@ -342,10 +335,7 @@ a:hover {
 
 
 
-.highlight code, .highlight pre {
-    color:#e8faff;
-    background-color: #1e182c;
-}
+
 
 .highlight .s1 {
   color: #70a0ff;
@@ -353,6 +343,11 @@ a:hover {
 
 .highlight .nt {
     color: #7b93c8;
+}
+
+.highlight code, .highlight pre {
+color:#fddec3;
+background-color: #1f223c;
 }
 
 .highlight .hll {
@@ -369,7 +364,7 @@ color:#f0dfaf;
 }
 
 .highlight .p {
-color:#c88ad3;
+color:#41706f;
 }
 
 .highlight .cs {
@@ -412,14 +407,9 @@ color:#0040D0;
 color:#dca3a3;
 }
 
-.highlight .kd,
-.highlight .kr {
+.highlight .kd {
 color:#ffff86;
 }
-
-/* .highlight .kr {
-color:#cdcd00;
-} */
 
 .highlight .kn {
 color:#dfaf8f;
@@ -428,6 +418,10 @@ font-weight:700;
 
 .highlight .kp {
 color:#cdcf99;
+}
+
+.highlight .kr {
+color:#cdcd00;
 }
 
 .highlight .ni {
@@ -448,7 +442,7 @@ color:#ffffc7;
 }
 
 .highlight .c,.preview-zenburn .highlight .g,.preview-zenburn .highlight .cm,.preview-zenburn .highlight .cp,.preview-zenburn .highlight .c1 {
-color:#765a97;
+color:#7f9f7f;
 }
 
 .highlight .l,.preview-zenburn .highlight .x,.preview-zenburn .highlight .no,.preview-zenburn .highlight .nd,.preview-zenburn .highlight .nl,.preview-zenburn .highlight .nx,.preview-zenburn .highlight .py,.preview-zenburn .highlight .w {

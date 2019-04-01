@@ -17,9 +17,9 @@ Features
 
     - Receive notifications (via webhooks) when certain events and parameters occur on the blockchain
     - Use our JavaScript client to easily integrate with our API to create new notifications and subscriptions for users within your DApp
+    .. - **Tiny** (~88kb compressed; 284kb uncompressed)
     - Extensive `documentation`_
-    - **DOWN THE ROAD**: Support various DLT chains other than Ethereum
-    - .. **Tiny** (~88kb compressed; 284kb uncompressed)
+    - **DOWN THE ROAD** Support various DLT chains other than Ethereum
 
 ----
 

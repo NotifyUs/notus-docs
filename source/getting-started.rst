@@ -1,16 +1,23 @@
 Getting Started
 ***************
 
-The ethers.js library is a compact and complete JavaScript library for Ethereum.
+Notus ships with a complete, tiny JavaScript library to communicate with our API.
 
 -----
 
 Installing in Node.js
 =====================
 
-Install the ethers.js library from your project directory::
+Install the notus-js library from your project directory::
 
-    /home/ricmoo/my-project> npm install --save ethers
+    $ npm install --save notus-js
+
+Or with Yarn::
+
+    $ yarn add notus-js
+
+-----
+
 
 Importing
 ---------
@@ -18,39 +25,50 @@ Importing
 .. code-block:: javascript
     :caption: *JavaScript (ES3)*
 
-    var ethers = require('ethers');
+    var notusClient = require('notus-js');
 
 .. code-block:: javascript
     :caption: *JavaScript (ES5 or ES6)*
 
-    const ethers = require('ethers');
+    const notusClient = require('notus-js');
 
 .. code-block:: javascript
     :caption: *JavaScript (ES6) / TypeScript*
 
-    import { ethers } from 'ethers';
+    import { notusClient } from 'notus-js';
 
 
------
+Configuration
+-------------
 
-Including in Web Applications
-=============================
+.. code-block:: javascript
 
-For security purposes, it is usually best to place a **copy** of `this script`_ on
-the application's server, but for a quick prototype using the Ethers CDN (content
-distribution network) should suffice.
-
-.. code-block:: html
-    :caption: *HTML*
-
-    <!-- This exposes the library as a global variable: ethers -->
-    <script src="https://cdn.ethers.io/scripts/ethers-v4.min.js"
-            charset="utf-8"
-            type="text/javascript">
-    </script>
+    notusClient.config({
+      apiKey: '<YOUR API KEY>',
+      ...
+    })
 
 
------
 
-.. _npm is installed: https://nodejs.org/en/
-.. _this script: https://cdn.ethers.io/scripts/ethers-v4.min.js
+.. -----
+
+.. Including in Web Applications
+.. =============================
+
+.. For security purposes, it is usually best to place a **copy** of `this script`_ on
+.. the application's server, but for a quick prototype using the Ethers CDN (content
+.. distribution network) should suffice.
+
+.. .. code-block:: html
+..     :caption: *HTML*
+
+..     <!-- This exposes the library as a global variable: ethers -->
+..     <script src="https://cdn.ethers.io/scripts/ethers-v4.min.js"
+..             charset="utf-8"
+..             type="text/javascript">
+..     </script>
+
+
+.. -----
+
+.. .. _this script: https://cdn.ethers.io/scripts/ethers-v4.min.js
