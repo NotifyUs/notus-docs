@@ -28,7 +28,8 @@ Features
    :caption: Developer Documentation
 
    getting-started
-   cookbook
+   notifications-endpoint
+   users-endpoint
 
 -----
 
